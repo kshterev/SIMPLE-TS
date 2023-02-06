@@ -9,6 +9,7 @@ that does not need a relaxation coefficient to ensure convergence.
 Furthermore, SIMPLE-TS is five times faster than SIMPLE and slightly faster than PISO.
 
 A derivation of the SIMPLE-TS method and considerations are available here: https://kirilshterev.com/index.php/finite-volume-method-for-the-compressible-viscous-gas-flows-simple-ts-derivation/
+
 The web page contains:
  - detailed derivation of the numerical equations and explanations;
  - detailed explanation of differences between SIMPLE-TS and other SIMPLE-like methods considering an example of one-dimensional unsteady, isothermal pressure-driven flow in a duct;
@@ -16,6 +17,7 @@ The web page contains:
  - derivation of the numerical equations of the algorithm SIMPLE-TS using a second-order total variation diminishing (TVD) scheme for the approximation of convective terms with Mathematica;
 
 SIMPLE-TS source codes and examples are placed here: https://kirilshterev.com/index.php/finite-volume-method-for-the-compressible-viscous-gas-flows-source-codes-and-examples/
+
 The web page contains:
  - parallel C++ source code with first-order approximation of convective terms;
  - unsteady supersonic, compressible, viscous, heat-conductive fluid flow past a confined square in a micro-channel – Mach number 2.43 and Knudsen number 0.00283 (Reynolds number 1415);
@@ -24,6 +26,7 @@ The web page contains:
  - Rayleigh-Bènard flow of a rarefied gas;
 
 The main work presented in this section is published in the following papers:
+
     K. Shterev and S. Stefanov, Pressure based finite volume method for calculation of compressible viscous gas flows, Journal of Computational Physics 229 (2010) pp. 461-480,  doi:10.1016/j.jcp.2009.09.042 – the accepted manuscript can be downloaded from here, the paper in its final mode is available here. IF 3.023
     K. S. Shterev and S. K. Stefanov, A Parallelization of Finite Volume Method for Calculation of Gas Microflows by Domain Decomposition Methods, 7th International Conference – Large-ScaleScientific Computat
     K. S. Shterev, S. K. Stefanov, Finite Volume Calculations of Gaseous Slip Flow Past a Confined Square in a Two-Dimensional Microchannel, Proceedings of the 1st European Conference on Microfluidics – Microfluidics 2008 – Bologna, December 10-12, 2008.
