@@ -24,7 +24,6 @@ The web page contains:
  - Rayleigh-Bènard flow of a rarefied gas;
 
 The main work presented in this section is published in the following papers:
-
     K. Shterev and S. Stefanov, Pressure based finite volume method for calculation of compressible viscous gas flows, Journal of Computational Physics 229 (2010) pp. 461-480,  doi:10.1016/j.jcp.2009.09.042 – the accepted manuscript can be downloaded from here, the paper in its final mode is available here. IF 3.023
     K. S. Shterev and S. K. Stefanov, A Parallelization of Finite Volume Method for Calculation of Gas Microflows by Domain Decomposition Methods, 7th International Conference – Large-ScaleScientific Computat
     K. S. Shterev, S. K. Stefanov, Finite Volume Calculations of Gaseous Slip Flow Past a Confined Square in a Two-Dimensional Microchannel, Proceedings of the 1st European Conference on Microfluidics – Microfluidics 2008 – Bologna, December 10-12, 2008.
