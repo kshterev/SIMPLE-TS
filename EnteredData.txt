@@ -1,0 +1,126 @@
+0	//u_gas_nd
+0	//v_gas_nd
+1	//T_gas_nd
+1	//p_gas_nd
+1.09544511501033	//Ma - solve in program   Ma = sqrt(6.0 / 5.0);
+0.666666666666667	//Pr - solve in program   Pr = 2.0 / 3.0;
+1.66666666666667	//gamma1 - solve in program   gamma1 = 5.0 / 3.0;
+0.606758097673656	//c_mu - solve in program   c_mu = (5.0 / 16.0) * sqrt(2.0 * M_PI / gamma1);
+0.050029296	//Kn
+50	//Fr
+0	//SolveGravityField
+250	//Re
+3	//TypeOfNonDimensiolization = 1 == NonDimentionalGiven_Re_pch_rho_V2_2, TypeOfNonDimensiolization = 2 == NonDimentionalGiven_Re_pch_rho_R_T, TypeOfNonDimensiolization = 3 == NonDimentionalGiven_Kn_pch_rho_R_T
+11000000	//Nt
+282	//Nx
+63	//Ny
+1	//N_I
+2	//N_I_p_c - if(N_I == 1) MUST N_I_p_c >= 2, if(N_I > 1) N_I_p_c can be 1
+3000	//N_I_T - if(N_I == 1) MUST N_I_T >= 2, if(N_I > 1) N_I_T can be 1
+0.01	//ht
+-2	//x_b
+12.05	//x_e
+-1	//y_b
+2.05	//y_e
+5	//kind_of_mesh == Li_mesh = 1, Par_mesh = 2, Li_mesh_flat = 3 li, Par_mesh_flat = 4, Polynom3_flat_mesh = 5
+0.05	//hxmin
+0.05	//hxmax
+-0.7	//xfmin
+-2.7	//xfmax
+0.7	//xbmin
+2.7	//xbmax
+0	//xmid 
+0.05	//hymin
+0.05	//hymax
+0.7	//ytmin
+2.7	//ytmax
+-0.7	//ybmin
+-2.7	//ybmax
+0	//ymid 
+1e-08	//MaxError_Velocities
+1e-09	//MaxError_p_c
+1e-09	//MaxError_T
+1e-12	//MaxError_to_stop_program
+1000	//max_time_for_solve
+0	//solve_is_finished
+1	//Nt_save_solved_data
+10000000	//Nt_save_DragCoefficient
+1	//Nt_save_temp_data
+1	//N_I_check
+0	//WriteDataInShortFormat_kind == 0; ==> to not write data in short format; //if WriteDataInShortFormat_kind == 1; ==> write: Re Kn CD CD_p u_gas_nd q_xb q_xe p_BC_xb p_BC_xe;
+0	//ToReadSolvedDataFromFile
+1	//ToReadSolvedDataFromBinaryFile
+1	//ToWriteSolvedDataToBinaryFile
+0	//ToWriteSolvedDataToNewFiles
+0	//ToContinueFromInterpolation
+0	//ToImport_data_for_circles_from_file_b
+1	//ToImport_data_for_polyhedrons_from_file_b
+0	//ToImport_data_for_circles_from_file_p
+0	//ToImport_data_for_polyhedrons_from_file_p
+0	//ToImport_data_for_circles_from_file_V
+0	//ToImport_data_for_polyhedrons_from_file_V
+0	//Given_velocity_on_xb
+0	//Given_velocity_on_xe
+0	//Periodic_boundary_conditions_about_OX
+1	//Pressure_BC
+0	//ToStartFromExactSolutionForChannelFlowWithPressureBC
+0	//p_BC_xb_correction_method == 0 --> no correction for p_BC_xb; p_BC_xb_correction_method == 1 == p_BC_xb_correction_method_Vmax_xb --> V maximum inflow == 1, p_BC_xb_correction_method == 2 == p_BC_xb_correction_method_Vmean_xb --> V mean inflow == 1
+0	//Pressure_ratio_correct == 0 --> not correct pressure ratio; Pressure_ratio_correct == 1 --> correct pressure ratio;
+0	//GivenReKn -> 	u_given_xb = Re * Kn * sqrt(15.0 * M_PI / 128.0);
+1	//correct_p_BC_xb
+2.2147	//u_given_xb
+0.0001	//u_given_xb_error
+0	//p_correction_auto
+0.001	//p_correction_min
+2	//p_correction_max
+0.05	//p_correction
+3	//p_BC_xb
+1	//T_BC_xb
+1	//p_BC_xe
+1	//T_BC_xe
+0	//dudx_0_BC_xb
+0	//durhodx_0_BC_xb
+1	//drhodt_durhodx_dvrhody_0_BC_xb
+0	//ToCalculate_ui_1j_from_equation_for_uij_at_x_b
+0	//dudx_0_BC_xe
+0	//durhodx_0_BC_xe
+1	//drhodt_durhodx_dvrhody_0_BC_xe
+0	//ToCalculate_ui1j_from_equation_for_uij_at_x_e
+0	//u_uMin_Mout_0_BC_xe
+0	//dudy_0_BC_yb
+0	//dudy_0_BC_ye
+1	//dvdx_0_BC_xb
+0	//ToCalculate_vi_1j_from_equation_for_vij_at_x_b
+1	//dvdx_0_BC_xe
+0	//ToCalculate_vi1j_from_equation_for_vij_at_x_e
+0	//dvdy_0_BC_yb
+0	//dvdy_0_BC_ye
+0	//dpdx_0_BC_xb
+0	//ToCalculate_pi_1j_from_equation_for_pij_at_x_b
+0	//dpdx_0_BC_xe
+0	//ToCalculate_pi1j_from_equation_for_pij_at_x_e
+0	//dpdy_0_BC_yb
+0	//dpdy_0_BC_ye
+0	//dTdx_0_BC_xb
+0	//ToCalculate_Temperi_1j_from_equation_for_Temperij_at_x_b
+1	//dTdx_0_BC_xe
+0	//ToCalculate_Temperi1j_from_equation_for_Temperij_at_x_e
+0	//dTdy_0_BC_yb
+0	//dTdy_0_BC_ye
+1	//To_Use_Kn_local_in_wall_BC
+0	//ToSolveContinuityEquation
+0	//use_interpolation_for_u_BC_by_time
+0	//t_BC_b
+2	//t_BC_e
+0.4	//u_BC_xb_t_BC_b
+0.5	//u_BC_xb_t_BC_e
+1	//w_u
+1	//w_v
+1	//w_p
+1	//w_Temper
+2	//N_SubDomains_x
+1	//N_SubDomains_y
+0	//ToReadSolvedDataFromSeparateFileForEachSubDomain
+1	//ToWriteSolvedDataToFileForEntireComputationalDomain
+0	//ToWriteSolvedDataToSeparateFileForEachSubDomain
+0	//ToOnlyWriteDataFor_Nx_Ny_ForAllSubDomains_AndExit

@@ -1,0 +1,45 @@
+2	//N_polyhedrons
+8	//N_vertex_body
+100.01	-2000.1	//point1_inside_x point1_inside_y
+150.01	-2000.111	//point2_inside_x point2_inside_y
+0	0	//u_body v_body
+0	//pressure in polyhedron - must be 0
+1	//Temperature in polyhedron
+1	//is_VelocitySlipBC_body
+1.1466	//F_VelocitySlip
+0	//w_VelocitySlipBC
+0	//is_TemperatureJumpBC_body
+2.1904	//F_TemperatureJump
+0	//dTdn_on_wall_0
+0	//ToSolveDragCoefficientForThisBody
+-100000.001	-0.99991
+0.000001	-0.99991
+0.000001	0.00001
+10.00001	0.00001
+10.00001	-0.99991
+100000.001	-0.99991
+100000.001	-100000.001
+-100000.001	-100000.001
+8	//N_vertex_body
+100.01	2000.1	//point1_inside_x point1_inside_y
+150.01	2000.111	//point2_inside_x point2_inside_y
+0	0	//u_body v_body
+0	//pressure in polyhedron - must be 0
+1	//Temperature in polyhedron
+1	//is_VelocitySlipBC_body
+1.1466	//F_VelocitySlip
+0	//w_VelocitySlipBC
+0	//is_TemperatureJumpBC_body
+2.1904	//F_TemperatureJump
+0	//dTdn_on_wall_0
+0	//ToSolveDragCoefficientForThisBody
+-100000.001	100000.001
+1000000.001	100000.001
+1000000.001	2.00001
+10.00001	2.00001
+10.00001	1.00001
+0.000001	1.00001
+0.000001	2.00001
+-100000.001	2.000001
+
+
